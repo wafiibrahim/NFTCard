@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap");
+
+:root {
+  --cyan: hsl(178, 100%, 50%);
+  --softblue: hsl(215, 51%, 70%);
+  --mainbg: hsl(217, 54%, 11%);
+  --cardbg: hsl(216, 50%, 16%);
+  --linebg: hsl(215, 32%, 27%);
+}
+
+html,
+body {
+  /*To stop page from overflowing vertically*/
+  overflow: hidden;
+  width: 100%;
+  font-size: 18px;
+
+  font-family: "Outfit", sans-serif;
+  background-color: var(--mainbg);
+}
+h1 {
+  color: hsl(0, 0%, 100%);
+
+  font-size: 18px;
+  margin: 0 auto;
+  margin-left: 22px;
+  margin-top: 20px;
+}
+p {
+  color: var(--softblue);
+  font-weight: 10;
+  font-size: 14px;
+  margin: 0 auto;
+  word-wrap: break-word;
+  padding: 15px 35px 0 22px;
+
+  font-weight: 300;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding-top: 90vh;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  margin-top: 6%;
+
+  height: 470px;
+  width: 275px;
+  background-color: var(--cardbg);
+  border-radius: 15px;
+  text-align: left;
+  box-shadow: var(--mainbg);
+}
+
+img {
+  display: block;
+
+  width: 90%;
+
+  margin-left: auto;
+
+  margin-right: auto;
+  border-radius: 15px;
+  padding-top: 13px;
+}
+
+#ethicon {
+  width: 3.5%;
+  float: left;
+  margin-left: 22px;
+}
+h3 {
+  font-size: 13px;
+  color: #04fff7;
+  position: relative;
+  left: 10px;
+  top: 12px;
+}
+
+#ethereum {
+  text-align: left;
+  margin-top: auto;
+}
+
+#clock {
+  width: 4.5%;
+
+  margin-right: 87px;
+  margin-top: -10%;
+
+  float: right;
+}
+
+h4 {
+  color: var(--softblue);
+  font-weight: 10;
+  font-size: 13px;
+  float: right;
+  position: relative;
+  bottom: 35px;
+  right: 22px;
+}
+hr {
+  position: relative;
+  top: 13px;
+  left: 28px;
+  color: var(--softblue);
+  opacity: 10%;
+}
+.waficon {
+  width: 8%;
+  border-radius: 50em;
+  border-color: 4px solid white;
+  position: relative;
+
+  right: 70px;
+}
+
+img.waficon {
+  border-color: 10px solid white;
+}
+
+#cre {
+  position: relative;
+  right: 90px;
+}
+
+#sum {
+  font-weight: 300;
+  font-size: 13px;
+  position: relative;
+  bottom: 37px;
+  left: 110px;
+}
